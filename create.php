@@ -11,9 +11,7 @@
   <input type="submit" name="button" value="確定" />
   </form>
  
-///////////////////////////////////////////////////////////
-
- include("config.php");
+include("config.php");
 $id = $_POST['id'];
 $pw = $_POST['pw'];
 //判斷帳號密碼是否為空值
