@@ -6,7 +6,6 @@ include("config.php");
 
 $id = $_GET['id'];
 $pw = $_GET['pw'];
-//紅色字體為判斷密碼是否填寫正確
 if($_SESSION['username'] != null && $pw != null)
 {
         $id = $_SESSION['username'];
